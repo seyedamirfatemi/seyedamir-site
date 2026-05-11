@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>SeYeD AmiR | Frontend Developer & UI/UX Designer</title>
+    <meta name="title" content="SeYeD AmiR | Frontend Developer & UI/UX Designer">
+    <meta name="description" content="Professional Frontend Developer specializing in React, Vue.js, and modern web technologies. Creating stunning, responsive, and high-performance web applications.">
+    <meta name="keywords" content="frontend developer, web developer, react developer, vue developer, ui/ux designer, seyed amir, seyedamir fatemi, front-end, javascript, typescript, tailwindcss">
+    <meta name="author" content="SeYeD AmiR">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="English">
+    <meta name="revisit-after" content="7 days">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://seyedamir.dev/">
+    <meta property="og:title" content="SeYeD AmiR | Frontend Developer & UI/UX Designer">
+    <meta property="og:description" content="Professional Frontend Developer specializing in React, Vue.js, and modern web technologies.">
+    <meta property="og:image" content="https://seyedamir.dev/assets/og-image.webp">
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://seyedamir.dev/">
+    <meta property="twitter:title" content="SeYeD AmiR | Frontend Developer & UI/UX Designer">
+    <meta property="twitter:description" content="Professional Frontend Developer specializing in React, Vue.js, and modern web technologies.">
+    <meta property="twitter:image" content="https://seyedamir.dev/assets/og-image.webp">
+    <link rel="canonical" href="https://seyedamir.dev/">
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <link rel="stylesheet" href="data/style.css">
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "SeYeD AmiR",
+        "url": "https://seyedamir.dev",
+        "image": "https://seyedamir.dev/assets/profile.webp",
+        "sameAs": [
+            "https://github.com/seyedamirfatemi",
+            "https://linkedin.com/in/seyedamirfatemi",
+            "https://twitter.com/seyedamirfatemi"
+        ],
+        "jobTitle": "Frontend Developer",
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Freelance"
+        },
+        "knowsAbout": ["React", "Vue.js", "JavaScript", "TypeScript", "TailwindCSS", "UI/UX Design"],
+        "description": "Professional Frontend Developer specializing in React, Vue.js, and modern web technologies.",
+        "email": "seyedamirfatemi001.com"
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "SeYeD AmiR Portfolio",
+        "url": "https://seyedamir.dev",
+        "description": "Frontend Developer Portfolio showcasing projects and skills",
+        "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://seyedamir.dev/search?q={search_term_string}",
+            "query-input": "required name=search_term_string"
+        }
+    }
+    </script>
+</head>
+<body>
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+    
+    <div class="loader">
+        <div class="loader-content">
+            <div class="loader-ring"></div>
+            <div class="loader-text">Loading<span class="loader-dots">...</span></div>
+        </div>
+    </div>
+    
+    <div class="gradient-bg"></div>
+    <div class="noise"></div>
+    
+    <nav class="glass-nav" id="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-text">SA</span>
+                <span class="logo-dot"></span>
+            </div>
+            <div class="nav-links">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="nav-actions">
+                <button class="theme-toggle" id="themeToggle">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <button class="menu-toggle" id="menuToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+    
+    <div class="mobile-menu" id="mobileMenu">
+        <div class="mobile-menu-inner">
+            <a href="#home" class="mobile-link">Home</a>
+            <a href="#about" class="mobile-link">About</a>
+            <a href="#skills" class="mobile-link">Skills</a>
+            <a href="#projects" class="mobile-link">Projects</a>
+            <a href="#contact" class="mobile-link">Contact</a>
+            <div class="mobile-social">
+                <a href="https://github.com/seyedamirfatemi" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://linkedin.com/in/seyedamirfatemi" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://t.me/seyedamirfatemi" target="_blank"><i class="fab fa-telegram"></i></a>
+                <a href="https://instagram.com/seyedamir_fatemi" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </div>
+    
+    <main>
+        
+        <section id="home" class="hero">
+            <div class="hero-container">
+                <div class="hero-content">
+                    <div class="hero-badge">
+                        <span class="badge-pulse"></span>
+                        Available for work
+                    </div>
+                    <h1 class="hero-title">
+                        <span class="greeting">Hi, I'm</span>
+                        <span class="name-gradient">SeYeD AmiR</span>
+                        <span class="typing-wrapper">
+                            <span class="typing-text"></span>
+                            <span class="cursor-blink">|</span>
+                        </span>
+                    </h1>
+                    <p class="hero-description">
+                        Frontend Developer & UI/UX Designer crafting beautiful, 
+                        responsive, and high-performance web experiences.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn-primary">
+                            <span>View My Work</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                        <a href="assets/resume.pdf" download class="btn-secondary">
+                            <i class="fas fa-download"></i>
+                            <span>Download Resume</span>
+                        </a>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com/seyedamirfatemi" target="_blank" class="social-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://linkedin.com/in/seyedamirfatemi" target="_blank" class="social-link">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://t.me/seyedamirfatemi" target="_blank" class="social-link">
+                            <i class="fab fa-telegram"></i>
+                        </a>
+                        <a href="https://instagram.com/seyedamir.fatemi" target="_blank" class="social-link">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="mailto:seyedamirfatemi001.com" class="social-link">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="hero-image">
+                    <div class="image-wrapper">
+                        <div class="image-glow"></div>
+                        <div class="image-border"></div>
+                        <img src="assets/profile.webp" alt="SeYeD AmiR - Frontend Developer" class="profile-img" id="profileImg">
+                        <div class="image-stats">
+                            <div class="stat">
+                                <span class="stat-number">3+</span>
+                                <span class="stat-label">Years Exp</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-number">50+</span>
+                                <span class="stat-label">Projects</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-number">30+</span>
+                                <span class="stat-label">Clients</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="scroll-indicator">
+                <span>Scroll</span>
+                <div class="scroll-mouse">
+                    <div class="scroll-wheel"></div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="about" class="about">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">
+                        <span class="title-number">01</span>
+                        About Me
+                    </h2>
+                    <div class="title-line"></div>
+                </div>
+                
+                <div class="about-content">
+                    <div class="about-text">
+                        <h3>Who am I?</h3>
+                        <p>
+                            I'm a passionate Frontend Developer with over 3 years of experience 
+                            creating modern, responsive, and user-friendly web applications. 
+                            I specialize in React, Vue.js, and modern JavaScript technologies.
+                        </p>
+                        <p>
+                            My journey in web development started with a curiosity for how things 
+                            work on the internet. Today, I've helped over 30 clients bring their 
+                            digital ideas to life with clean code and beautiful designs.
+                        </p>
+                        <div class="about-info">
+                            <div class="info-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>Bushehr, Iran</span>
+                            </div>
+                            <div class="info-item">
+                                <i class="fas fa-envelope"></i>
+                                <span>seyedamirfatemi001@gmail.com</span>
+                            </div>
+                            <div class="info-item">
+                                <i class="fas fa-code"></i>
+                                <span>Open for freelance</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="about-stats">
+                        <div class="stat-card glass">
+                            <div class="stat-icon">
+                                <i class="fas fa-code-branch"></i>
+                            </div>
+                            <h4>50+</h4>
+                            <p>Projects Completed</p>
+                        </div>
+                        <div class="stat-card glass">
+                            <div class="stat-icon">
+                                <i class="fas fa-smile"></i>
+                            </div>
+                            <h4>30+</h4>
+                            <p>Happy Clients</p>
+                        </div>
+                        <div class="stat-card glass">
+                            <div class="stat-icon">
+                                <i class="fas fa-coffee"></i>
+                            </div>
+                            <h4>5000+</h4>
+                            <p>Coffee Cups</p>
+                        </div>
+                        <div class="stat-card glass">
+                            <div class="stat-icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <h4>10000+</h4>
+                            <p>Hours Coding</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="skills" class="skills">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">
+                        <span class="title-number">02</span>
+                        My Skills
+                    </h2>
+                    <div class="title-line"></div>
+                </div>
+                
+                <div class="skills-content">
+                    <div class="skills-categories">
+                        <div class="skill-category">
+                            <h3><i class="fas fa-code"></i> Frontend</h3>
+                            <div class="skills-grid">
+                                <div class="skill-item" data-skill="95">
+                                    <div class="skill-info">
+                                        <span>React.js</span>
+                                        <span>95%</span>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" style="width: 95%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item" data-skill="90">
+                                    <div class="skill-info">
+                                        <span>Vue.js</span>
+                                        <span>90%</span>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" style="width: 90%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item" data-skill="95">
+                                    <div class="skill-info">
+                                        <span>JavaScript/TypeScript</span>
+                                        <span>95%</span>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" style="width: 95%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item" data-skill="92">
+                                    <div class="skill-info">
+                                        <span>HTML5/CSS3</span>
+                                        <span>92%</span>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" style="width: 92%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item" data-skill="88">
+                                    <div class="skill-info">
+                                        <span>TailwindCSS</span>
+                                        <span>88%</span>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" style="width: 88%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item" data-skill="85">
+                                    <div class="skill-info">
+                                        <span>Next.js</span>
+                                        <span>85%</span>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" style="width: 85%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-category">
+                            <h3><i class="fas fa-palette"></i> Design</h3>
+                            <div class="skills-grid">
+                                <div class="skill-item" data-skill="85">
+                                    <div class="skill-info">
+                                        <span>Figma</span>
+                                        <span>85%</span>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" style="width: 85%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item" data-skill="80">
+                                    <div class="skill-info">
+                                        <span>Adobe XD</span>
+                                        <span>80%</span>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" style="width: 80%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item" data-skill="88">
+                                    <div class="skill-info">
+                                        <span>UI/UX Design</span>
+                                        <span>88%</span>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" style="width: 88%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-category">
+                            <h3><i class="fas fa-database"></i> Tools & Others</h3>
+                            <div class="skills-grid">
+                                <div class="skill-item" data-skill="90">
+                                    <div class="skill-info">
+                                        <span>Git/GitHub</span>
+                                        <span>90%</span>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" style="width: 90%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item" data-skill="85">
+                                    <div class="skill-info">
+                                        <span>Webpack/Vite</span>
+                                        <span>85%</span>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" style="width: 85%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item" data-skill="80">
+                                    <div class="skill-info">
+                                        <span>Node.js</span>
+                                        <span>80%</span>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" style="width: 80%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="skills-tags">
+                        <h3>Tech Stack I Work With</h3>
+                        <div class="tags-cloud">
+                            <span class="tag">Html&Css</span>
+                            <span class="tag">React</span>
+                            <span class="tag">Vue</span>
+                            <span class="tag">Angular</span>
+                            <span class="tag">TypeScript</span>
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">TailwindCSS</span>
+                            <span class="tag">Bootstrap</span>
+                            <span class="tag">Material UI</span>
+                            <span class="tag">Next.js</span>
+                            <span class="tag">Redux</span>
+                            <span class="tag">Pinia</span>
+                            <span class="tag">GraphQL</span>
+                            <span class="tag">REST API</span>
+                            <span class="tag">Firebase</span>
+                            <span class="tag">Vercel</span>
+                            <span class="tag">Netlify</span>
+                            <span class="tag">Figma</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="projects" class="projects">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">
+                        <span class="title-number">03</span>
+                        Featured Projects
+                    </h2>
+                    <div class="title-line"></div>
+                </div>
+                
+                <div class="projects-grid">
+                    <div class="project-card glass">
+                        <div class="project-image">
+                            <img src="assets/project1.webp" alt="FileForge Converter">
+                            <div class="project-overlay">
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>FileForge Converter</h3>
+                            <p>Universal file converter supporting images, videos, and audio with real-time processing.</p>
+                            <div class="project-tech">
+                                <span>HTML/CSS</span>
+                                <span>JavaScript</span>
+                                <span>FFmpeg</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/seyedamirfatemi/file-convertor" target="_blank"><i class="fab fa-github"></i> Code</a>
+                                <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="project-card glass">
+                        <div class="project-image">
+                            <img src="assets/project2.webp" alt="DataMaster Table">
+                            <div class="project-overlay">
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>DataMaster Pro</h3>
+                            <p>Advanced data table with real-time search, filtering, sorting, and CSV export functionality.</p>
+                            <div class="project-tech">
+                                <span>React</span>
+                                <span>TypeScript</span>
+                                <span>CSS</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/seyedamirfatemi/datamaster-table" target="_blank"><i class="fab fa-github"></i> Code</a>
+                                <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="project-card glass">
+                        <div class="project-image">
+                            <img src="assets/project3.webp" alt="SysMon Monitor">
+                            <div class="project-overlay">
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>SysMon Status</h3>
+                            <p>Real-time server monitoring dashboard with terminal mode and desktop notifications.</p>
+                            <div class="project-tech">
+                                <span>React</span>
+                                <span>Vite</span>
+                                <span>Chart.js</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/seyedamirfatemi/server-status-monitor" target="_blank"><i class="fab fa-github"></i> Code</a>
+                                <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="project-card glass">
+                        <div class="project-image">
+                            <img src="assets/project4.webp" alt="HazardShop Project">
+                            <div class="project-overlay">
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>HazardShop</h3>
+                            <p>Unique e-commerce website for selling Fivem gaming platform scripts with a modern, innovative design.</p>
+                            <div class="project-tech">
+                                <span>React.js</span>
+                                <span>JavaScript</span>
+                                <span>Next.js</span>
+                                <span>MySql</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/seyedamirfatemi/script-shop-hazard" target="_blank"><i class="fab fa-github"></i> Code</a>
+                                <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="projects-more">
+                    <a href="https://github.com/seyedamirfatemi" target="_blank" class="btn-primary-outline">
+                        <i class="fab fa-github"></i> View All on GitHub
+                    </a>
+                </div>
+            </div>
+        </section>
+        
+        <section id="contact" class="contact">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">
+                        <span class="title-number">04</span>
+                        Get In Touch
+                    </h2>
+                    <div class="title-line"></div>
+                </div>
+                
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h3>Let's Work Together</h3>
+                        <p>I'm currently available for freelance work and full-time opportunities. If you have a project in mind or just want to say hello, feel free to reach out!</p>
+                        
+                        <div class="contact-details">
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </div>
+                                <div>
+                                    <h4>Location</h4>
+                                    <p>Bushehr, Iran</p>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i class="fas fa-phone-alt"></i>
+                                </div>
+                                <div>
+                                    <h4>Phone</h4>
+                                    <p>+98 902 597 2878</p>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <div>
+                                    <h4>Email</h4>
+                                    <p>seyedamirfatemi001@gmail.com</p>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i class="fab fa-github"></i>
+                                </div>
+                                <div>
+                                    <h4>GitHub</h4>
+                                    <p>github.com/seyedamirfatemi</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-social">
+                            <a href="https://github.com/seyedamirfatemi" target="_blank"><i class="fab fa-github"></i></a>
+                            <a href="https://linkedin.com/in/seyedamirfatemi" target="_blank"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://t.me/seyedamirfatemi" target="_blank"><i class="fab fa-telegram"></i></a>
+                            <a href="https://instagram.com/seyedamir.fatemi" target="_blank"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <input type="text" name="name" placeholder="Your Name *" required>
+                            <div class="form-border"></div>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" name="phone" placeholder="Your Phone Number *" required>
+                            <div class="form-border"></div>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="subject" placeholder="Subject (Optional)">
+                            <div class="form-border"></div>
+                        </div>
+                        <div class="form-group">
+                            <textarea name="message" rows="5" placeholder="Your Message *" required></textarea>
+                            <div class="form-border"></div>
+                        </div>
+                        <button type="submit" class="btn-primary">
+                            <span>Send Message</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <span>SA</span>
+                    <p>Frontend Developer & UI/UX Designer</p>
+                </div>
+                <div class="footer-nav">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <div class="footer-copyright">
+                    <p>Coded By <strong>SeYeD AmiR</strong> With ❤️</p>
+                    <a href="https://github.com/seyedamirfatemi" target="_blank">
+                        <i class="fab fa-github"></i> github.com/seyedamirfatemi
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="data/script.js"></script>
+</body>
+</html>
